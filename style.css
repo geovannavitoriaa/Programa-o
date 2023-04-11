@@ -66,21 +66,19 @@ a{
     min-height: 100vh;
     background-color: paleturquoise;
     display: flex;
-    flex-direction: column;
+   flex-wrap: wrap;
 }
 /*Ajustando o tamanho da imagem*/
 .imagem{
     width: 400px;
     height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.767) ;
 }
 /*Ajustando os ítens da página*/
 
 .item{
-    display: flex;
-    /* justify-content: flex-end;*/
-    /*center, flex-end* - podem ser usados */
-    align-items: flex-start;
-    border: 2px solid black;
+    display: block;
     margin: 10px;
 }
 .paragrafo{
